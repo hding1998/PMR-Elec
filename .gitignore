@@ -1,0 +1,49 @@
+# LaTeX compilation artifacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.toc
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =============================================================================
+# EXCLUDED FROM PUBLIC REPOSITORY
+# These files are kept locally but not published to GitHub.
+# =============================================================================
+
+# Paper manuscripts, figures, and submission materials
+paper/
+figures/
+results/
+COVER_LETTER.md
+DATA_AVAILABILITY.md
+ETHICS.md
+HIGHLIGHTS.md
+RESPONSE_TO_REVIEWERS_TEMPLATE.md
+
+# Auxiliary / non-experiment scripts
+code/experiments/md_to_docx_v6.py
+code/experiments/generate_figures.py
+
+# Large raw datasets (>100MB GitHub limit)
+data/household_power_consumption.txt
